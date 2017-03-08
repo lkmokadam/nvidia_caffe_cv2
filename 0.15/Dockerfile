@@ -31,6 +31,5 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-3.1.0/modules \
     -D BUILD_EXAMPLES=ON .. && \
 make -j8  && \ 
-sudo make install  && \ 
-sudo ldconfig  
+sudo make install 
 
